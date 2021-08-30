@@ -1,0 +1,1616 @@
+@import './variables.scss';
+
+@function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
+
+
+@media only screen and (max-width: 376px) {
+
+    body {
+        margin: 0 auto;
+        max-width: 376 px;
+        border-radius: 15px;
+      }
+
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        object-fit: cover;
+    }
+
+    .navmenu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .btndiv {
+            margin-left: 15px !important;
+            margin-right: 15px !important;
+            width: 100% !important;
+            padding-bottom: $pad10 !important;
+        }
+    }
+
+    .img1 {
+        background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+        border-radius: $pad15 $pad15 0 0;
+        height: $height !important;
+        width: $width !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .img11 {
+        background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+        height: $height ;
+        width: $width ;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .img2 {
+        background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+        border-radius: $pad15 $pad15 0 0;
+        height: $height !important;
+        width: $width !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .img3 {
+        background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+        border-radius: $pad15 $pad15 0 0;
+        height: $height !important;
+        width: $width !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .img4 {
+        background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+        border-radius: $pad15 $pad15 0 0;
+        height: $height !important;
+        width: $width !important;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .textb12 {
+        font-family: 'Shrikhand', sans-serif;
+        font-style: italic;
+        font-size: 24px;
+        padding-right: 45px;
+        padding-left: 15px;
+    }
+
+    .textb13 {
+        font-family: 'Shrikhand', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        padding-right: 170px;
+        padding-left: 15px;
+    }
+
+    .textb14 {
+        font-family: 'Shrikhand', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        padding-right: 65px;
+        padding-left: 15px;
+    }
+
+    .textb15 {
+        font-family: 'Shrikhand', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        padding-right: 80px;
+        padding-left: 15px;
+    }
+
+    .hearts:hover {
+            position: relative;
+            z-index: -2;
+            background: linear-gradient(130deg, #9356dc, #ff79da);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+    i {
+        font-family: $font;
+        margin: 0;
+    }
+
+    a {
+        font-family: $font;
+        margin: 0;
+    }
+
+    element.style {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    p {
+        margin: 0;
+        font-family: $font;
+    }
+
+    .dish {
+        margin: 0;
+        font-family: $font;
+    }
+
+    .img {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .textb1 {
+        font-family: 'Shrikhand', sans-serif;
+        font-style: italic;
+        font-size: 30px;
+        padding-right: 70px;
+    }
+
+    .textb11 {
+        font-size: 18px !important;
+        font-weight: weight(bold);
+      
+    }
+
+    
+    .btnnew {
+        border: none;
+        background-color: #99E2D0;
+        color: darkcyan;
+        padding: 7px 32px ;
+        float: $right !important;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px 10px;
+        cursor: pointer;
+        font-weight: weight(bold);
+        border-radius: $pad3 $pad3 $pad3 $pad3;
+
+    }
+
+    .restdiv{
+        margin-top: $pad50;
+        background-color: $light-grey;
+        background-color: #F5F5F5;
+        padding-left: 0px !important;
+        padding-right: 15px !important;
+        .resttext { 
+            padding-left: $pad15 !important;
+            width: 100%;
+            font-size: 20px !important;
+            text-align: left !important;
+            padding-top: $pad50;
+            padding-bottom: $pad30;
+            font-weight: weight(bold);
+        }
+    
+        .cardflex{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+    
+        .cardcon{
+            flex: 100% !important;
+            margin-left: $pad15;
+        }
+    
+        .cardcon4 {
+            padding-bottom: $pad50;
+            flex: 45%;
+            margin-left: $pad15;
+        }
+    }
+
+
+    .restdiv1{
+        background-color: $light-grey;
+        border-radius: $pad30 $pad30 0 0;
+        margin-top: -50px;
+    }
+
+
+    .logo {
+        font-size: 25px !important;
+        font-family: 'Shrikhand', sans-serif;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+
+    .logodiv {
+        text-align: $center;
+    }
+
+    .location {
+        flex-direction: $flexdrow;
+        width: $width;
+        text-align: $center;
+        background-color: $grey;
+        padding-top: $pad15;
+        padding-bottom: $pad15;
+        box-shadow: $shadow;
+        -webkit-box-shadow:$shadow;
+        box-shadow:$shadow;
+        font-weight: weight(bold);
+
+    }
+
+    .fasgps {
+        padding-right: $margon10;
+    }
+
+    .bookt {
+        text-align: $center;
+        font-size: $fsize2;
+        font-weight: weight(bold);
+        padding-top: $pad15;
+        padding-bottom: $pad15;
+    }
+
+    .dtext {
+        text-align: $center;
+        padding: $pad15 $pad30 $pad30 $pad30;
+    }
+
+    .fa-arrow-left {
+        float: left;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+
+    .expbtn {
+        background: $expbtnbackg;
+        padding: $pad15 $pad30 $pad15 $pad30;
+        border-radius: $pad30 $pad30 $pad30 $pad30;
+        border: none;
+        color: $white;
+        font-weight: weight(bold);
+        box-shadow: $shadowout;
+        -webkit-box-shadow:$shadowout;
+        box-shadow:$shadowout;
+        width: 220px; 
+        margin-top: $pad30;
+    }
+    
+    .orderbtn {
+        background: $expbtnbackg;
+        padding: $pad15 $pad30 $pad15 $pad30;
+        border-radius: $pad30 $pad30 $pad30 $pad30;
+        border: none;
+        margin-top: 35px;
+        margin-bottom: 30px;
+        width: 180px;
+        color: $white;
+        font-weight: weight(bold);
+        box-shadow: $shadowout;
+        -webkit-box-shadow:$shadowout;
+        box-shadow:$shadowout;
+    }
+
+    .expbtndiv { 
+        text-align: $center;
+        padding-bottom: $pad50;
+        background-color: $light-grey;
+    }
+
+    .howdiv{
+        text-align: left !important;
+        padding-top: $pad30;
+        padding-left: $pad10;
+        padding-bottom: $pad15;
+        font-size: $fsize !important;
+        font-weight: weight(bold);
+    }
+
+    .btnc {
+        text-align: $left;
+        padding-top: $pad30;
+        padding-bottom: $pad30;
+        margin-bottom: $pad15;
+        border-radius: $pad15 $pad15 $pad15 $pad15;
+        width: $w100;
+        border: none;
+        box-shadow: 0 7px 10px -6px grey;
+        background-color: $light-grey;
+    }
+
+    .btncr {
+        text-align: $left;
+        padding-bottom: $pad30;
+        padding-top: $pad30;
+        margin-bottom: $pad15;
+        border-radius: $pad15 $pad15 $pad15 $pad15;
+        width: $w100;
+        border: none;
+        box-shadow: $shadowout;
+        -webkit-box-shadow:$shadowout;
+        box-shadow:$shadowout;
+        background-color: $light-grey;
+    }
+
+    .btng {
+        text-align: $left;
+        padding-bottom: $pad30;
+        padding-top: $pad30;
+        margin-bottom: $pad15;
+        width: $w100;
+        border-radius: $pad15 $pad15 $pad15 $pad15;
+        border: none;
+        box-shadow: $shadowout;
+        -webkit-box-shadow:$shadowout;
+        box-shadow:$shadowout;
+        background-color: $light-grey;
+    }
+
+    .one {
+        background-color: $purp;  
+        border-radius: 50%;
+        height: 3px;
+        padding: 5px 10px 5px 8px;
+        width: 3px;
+        color: $white;
+        margin-left: -13px;
+        line-height: 5px !important;
+    }
+
+    .fa-mobile-alt{
+        padding-left: $pad15;
+        padding-right: $pad15;
+        color: $greyd;
+        font-size: $pad15;
+    }
+
+    .fa-list{
+        padding-left: $pad15;
+        padding-right: $pad15;
+        color: $greyd;
+        font-size: $pad15;
+    }
+
+    .fa-store{
+        padding-left: $pad15;
+        padding-right: $pad15;
+        color: $greyd;
+        font-size: $pad15;
+    }
+
+    .btnext {
+        font-size: $pad15 !important;
+        font-weight: weight(bold) !important;
+    }
+
+
+
+    .textname {
+        width: 80%;
+        padding-top: $pad15;
+        padding-bottom: $pad15;
+        padding-left: $pad15;
+    }
+
+    .textname1 {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .menudiv {
+        .menu-name {
+            backface-visibility: hidden;
+            width:300px;
+            font-size: 16px;
+            .foodd > p {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+            .textb111 > p {
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+        }
+        display: flex;
+        flex-direction: row;
+        border-radius: $pad15 $pad15 $pad15 $pad15;
+        background-color: $white;
+        margin-top: $pad10;
+        margin-bottom: $pad10;
+        margin-left: $pad5;
+        margin-right: $pad5;
+        cursor: pointer;
+        transition: all 0.5s;
+        box-shadow: $shadowout;
+        -webkit-box-shadow:$shadowout;
+        box-shadow:$shadowout;
+        animation: fadeIn 5s;
+        -webkit-animation: fadeIn 5s;
+        -moz-animation: fadeIn 5s;
+        -o-animation: fadeIn 5s;
+        -ms-animation: fadeIn 5s;
+        @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+        
+        @-moz-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+        }
+        
+        .price{
+            padding-top: 25px;
+            padding-right: 10px;
+            padding-left: 20px !important;
+        }
+
+        .menu-name {
+            animation: widthgrow1b  1s  1;
+            -webkit-animation: widthgrow1b  1s  1;
+        }
+
+        .textbm {
+            width: 0%;
+            right: 0;
+            position: relative;
+            }
+        .btnhov {
+                height:100%;
+                position: absolute;
+                background-color: #96DED1;
+                width:0px;
+                padding-bottom: 0px !important;
+                right: 0;
+                float: right;
+                border-radius: 0px 15px 15px 0px;
+            .fa-check-circle{
+                    color:white;
+                    width:15px;
+                    height:15px;
+                    opacity: 0;
+                    transition: all 5s 1;
+                    margin: 0;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
+                    right: 0px;
+                   }
+            }       
+    }
+
+    .fa-check-circle svg {
+        color:white;
+    }
+
+    .menudiv:hover{
+
+        .menu-name {
+            animation: widthgrow1 1s forwards;
+            -webkit-animation: widthgrow1 1s 1 forwards;
+
+        }
+
+        .price{
+            padding-top: 25px;
+            padding-right: 10px;
+            padding-left: 20px !important;
+            right:65px;
+            animation: run1 1s forwards;
+        }
+        
+        .textbm {
+            
+            width:65px;
+        }
+    
+        .btnhov{
+            -webkit-animation: widthgrow 1s 1 forwards;
+            animation: widthgrow 1s 1 forwards;
+            padding-bottom: 0px !important;
+            height:100% !important;
+            .fa-check-circle{
+                animation: run 1s 1 forwards;
+                opacity: 1; 
+                transform: rotate(360deg);
+                right: 15px;
+                opacity: 100;
+            }
+        }
+
+    }
+
+    
+@-webkit-keyframes widthgrow {
+    0% {
+        padding-bottom: 0px !important;
+      width: 0;
+    }
+    100% {
+        padding-bottom: 0px !important;
+      width: 65px;
+    }
+  }
+
+  @-webkit-keyframes widthgrowb {
+    0% {
+        padding-bottom: 0px !important;
+        width: 0px;
+      }
+      100% {
+        padding-bottom: 0px !important;
+        width: 65px;
+      }
+    }
+
+  @keyframes widthgrow1 {
+
+    0% {
+        width: 300px;
+      }
+      100% {
+        width: 225px;
+      }
+}
+
+@keyframes widthgrow1b {
+
+    0% {
+        width: 285px;
+      }
+      100% {
+        width: 325px;
+      }
+}
+
+
+
+  @-webkit-keyframes widthgrow1 {
+    0% {
+      width: 300px;
+    }
+    100% {
+        width:225px;
+    }
+  }
+
+  @-webkit-keyframes widthgrow1b {
+    0% {
+      width: 225px;
+    }
+    100% {
+        width:300px;
+    }
+  }
+
+  
+
+@keyframes widthgrow {
+
+    0% {
+        padding-bottom: 0px !important;
+        width: 0px;
+      }
+      100% {
+        padding-bottom: 0px !important;
+        width: 65px;
+      }
+}
+
+@keyframes widthgrowb {
+
+    0% {
+        padding-bottom: 0px !important;
+        width: 65px;
+      }
+      100% {
+        padding-bottom: 0px !important;
+        width: 0px;
+      }
+}
+
+@keyframes run {
+    0% {
+        opacity: 0;
+        transform: translate(0px);
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-15px);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes runb {
+    0% {
+        opacity: 1;
+        transform: translate(-15px);
+        transform: rotate(360deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0px) !important;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes run1 {
+    0% {
+        transform: translate(65px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+@keyframes run1b {
+    0% {
+        transform: translate(-60px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+    .entdiv {
+        padding-bottom: 10px;
+        padding-left: 15px;
+    }
+
+    .textu {
+        display: inline-block;
+        border-bottom: 3px solid #99E2D0;
+        width:40px;
+    }
+
+    .heart {
+        width: 20%;
+        font-size: $pad30;
+        padding-top: $pad15;
+        font-weight: weight(regular);
+    }
+
+    .hearts {
+        font-size: $pad20;
+    }
+
+    .cardtext {
+        display: flex;
+        flex-direction: row;
+        background-color: $white;
+        border-radius: 0 0 $pad15 $pad15;
+        box-shadow: $shadowout;
+        -webkit-box-shadow:$shadowout;
+        box-shadow:$shadowout;
+        margin-bottom: $pad15;
+    }
+
+
+    .textb {
+        font-weight: weight(bold);
+    }
+
+
+
+    .maindiv {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left:15px;
+    }
+
+    .dessdiv {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        padding-left:15px;
+    }
+
+ 
+
+    .suggdiv {
+        font-size: 15px !important;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: $pad5;
+    }
+
+    footer {
+        background-color: #202020;
+        padding-left: $pad15;
+        color: $white;
+    }
+
+    .bckg{
+    background-color: $light-grey;
+    }
+
+    .logof {
+        padding-top: $pad15;
+        padding-bottom: $pad15;
+        font-size: 20px !important;
+        font-family: 'Shrikhand', sans-serif;
+        text-align: left !important;
+    }
+
+    .fa-utensils {
+        padding-right: 13px;
+    }
+
+    .fa-handshake {
+        padding-right: 7px !important;
+        padding-bottom: $pad5 !important;
+    }
+
+    .partner {
+        text-align: left !important;
+        font-size: 15px !important;
+    }
+ 
+    .divl {
+        text-align: left !important;
+        padding-bottom: $pad5 !important;
+        font-size: 15px !important;
+    }
+
+    .divc {
+        text-align: left !important;
+        padding-bottom: $pad30 !important;
+        font-size: 15px !important;
+    }
+
+    .cardcon4 {
+        padding-bottom: $pad50 ;
+    }
+
+
+
+    .cardtext:hover {
+        .fa-heart {
+            color: darkmagenta;
+        }
+    }
+
+    .loader {
+        width:375px !important;
+    }
+
+}
+
+
+
+
+body {
+    margin: 0 auto;
+    max-width: 1440px;
+    border-radius: 15px;
+  }
+
+  @function weight($weight-name) {
+    @return map-get($font-weights, $weight-name);
+}
+
+.navmenu {
+    display: flex;
+   
+    .btndiv {
+        margin-left: 35px;
+        flex-direction: column;
+        width: 30%;
+        padding-bottom: $pad30;
+    }
+}
+
+.btndiv:hover { 
+    .btnc, .btncr, .btng {
+    background-color: #D8BFD8;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.img1 {
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    border-radius: $pad15 $pad15 0 0;
+    height: 350px;
+    width: $width;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img11 {
+    background-image: url("../images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg");
+    height: $height;
+    width: $width;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img2 {
+    background-image: url("../images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg");
+    border-radius: $pad15 $pad15 0 0;
+    height: 350px;
+    width: $width;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img3 {
+    background-image: url("../images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg");
+    border-radius: $pad15 $pad15 0 0;
+    height: 350px;
+    width: $width;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.img4 {
+    background-image: url("../images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg");
+    border-radius: $pad15 $pad15 0 0;
+    height: 350px;
+    width: $width;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.textb12 {
+    font-family: 'Shrikhand', sans-serif;
+    font-style: italic;
+    font-size: 24px;
+    padding-right: 45px;
+    padding-left: 15px;
+}
+
+.textb13 {
+    font-family: 'Shrikhand', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 170px;
+    padding-left: 15px;
+}
+
+.textb14 {
+    font-family: 'Shrikhand', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 65px;
+    padding-left: 15px;
+}
+
+.textb15 {
+    font-family: 'Shrikhand', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 80px;
+    padding-left: 15px;
+}
+
+i {
+    font-family: $font;
+    margin: 0;
+}
+
+a {
+    font-family: $font;
+    margin: 0;
+}
+
+element.style {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin: 0;
+    font-family: $font;
+}
+
+.img {
+    height: 200px;
+    width: 100%;
+}
+
+.textb1 {
+    font-family: 'Shrikhand', sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    padding-right: 70px;
+}
+
+.textb11{
+    font-size: 20px;
+    font-weight: weight(bold);
+}
+
+.btnnew {
+    border: none;
+    background-color: #99E2D0;
+    color: darkcyan;
+    padding: 7px 32px ;
+    float: $right !important;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 10px;
+    cursor: pointer;
+    font-weight: weight(bold);
+    border-radius: $pad3 $pad3 $pad3 $pad3;
+
+}
+
+.restdiv{
+    background-color: $light-grey;
+    .resttext { 
+        width: 100%;
+        font-size: 2em;
+        text-align: center;
+        padding-top: $pad50;
+        padding-bottom: $pad30;
+        font-weight: weight(bold);
+    }
+
+    .cardflex{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .cardcon{
+        flex: 45%;
+        float: left;
+        margin-left: $pad15;
+    }
+
+    .cardcon4 {
+        padding-bottom: $pad50;
+        flex: 45%;
+        margin-left: $pad15;
+    }
+}
+
+.restdiv1{
+    background-color: $light-grey;
+    border-radius: $pad30 $pad30 0 0;
+    margin-top: -50px;
+}
+
+
+.logo {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Shrikhand', sans-serif;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+
+.logodiv {
+    text-align: $center;
+}
+
+.location {
+    flex-direction: $flexdrow;
+    width: $width;
+    text-align: $center;
+    background-color: $grey;
+    padding-top: $pad15;
+    padding-bottom: $pad15;
+    box-shadow: $shadow;
+    -webkit-box-shadow:$shadow;
+    box-shadow:$shadow;
+    font-weight: weight(bold);
+
+}
+
+.fasgps {
+    padding-right: $margon10;
+}
+
+.bookt {
+    text-align: $center;
+    font-size: $fsize2;
+    font-weight: weight(bold);
+    padding-top: $pad15;
+    padding-bottom: $pad15;
+}
+
+.dtext {
+    text-align: $center;
+    padding: $pad15 $pad30 $pad30 $pad30;
+}
+
+.fa-arrow-left {
+    float: left;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.expbtn {
+    background: $expbtnbackg;
+    padding: $pad15 $pad30 $pad15 $pad30;
+    border-radius: $pad30 $pad30 $pad30 $pad30;
+    border: none;
+    color: $white;
+    font-weight: weight(bold);
+    box-shadow: $shadowout;
+    -webkit-box-shadow:$shadowout;
+    box-shadow:$shadowout;
+    width: 220px; 
+    margin-top: $pad30;
+}
+ 
+.orderbtn {
+    background: $expbtnbackg;
+    padding: $pad15 $pad30 $pad15 $pad30;
+    border-radius: $pad30 $pad30 $pad30 $pad30;
+    border: none;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    width: 180px;
+    color: $white;
+    font-weight: weight(bold);
+    box-shadow: $shadowout;
+    -webkit-box-shadow:$shadowout;
+    box-shadow:$shadowout;
+}
+
+.expbtndiv { 
+    text-align: $center;
+    padding-bottom: $pad50;
+    background-color: $light-grey;
+}
+
+.howdiv{
+    padding-top: $pad30; 
+    padding-bottom: $pad30;
+    font-size: 2em;
+    font-weight: weight(bold);
+    text-align: center;
+}
+
+.btnc {
+    text-align: $left;
+    padding-top: $pad30;
+    padding-bottom: $pad30;
+    margin-bottom: $pad15;
+    border-radius: $pad15 $pad15 $pad15 $pad15;
+    width: $w100;
+    border: none;
+    box-shadow: 0 7px 10px -6px grey;
+    background-color: $light-grey;
+}
+
+.btncr {
+    text-align: $left;
+    padding-bottom: $pad30;
+    padding-top: $pad30;
+    margin-bottom: $pad15;
+    border-radius: $pad15 $pad15 $pad15 $pad15;
+    width: $w100;
+    border: none;
+    box-shadow: $shadowout;
+    -webkit-box-shadow:$shadowout;
+    box-shadow:$shadowout;
+    background-color: $light-grey;
+}
+
+.btng {
+    text-align: $left;
+    padding-bottom: $pad30;
+    padding-top: $pad30;
+    margin-bottom: $pad15;
+    width: $w100;
+    border-radius: $pad15 $pad15 $pad15 $pad15;
+    border: none;
+    box-shadow: $shadowout;
+    -webkit-box-shadow:$shadowout;
+    box-shadow:$shadowout;
+    background-color: $light-grey;
+}
+
+.one {
+  background-color: $purp;  
+  border-radius: 50%;
+  height: 3px;
+  padding: 5px 10px 5px 8px;
+  width: 3px;
+  color: $white;
+  margin-left: -13px;
+  line-height: 5px !important;
+}
+
+.fa-mobile-alt{
+    padding-left: $pad15;
+    padding-right: $pad15;
+    color: $greyd;
+    font-size: $pad15;
+}
+
+.fa-list{
+    padding-left: $pad15;
+    padding-right: $pad15;
+    color: $greyd;
+    font-size: $pad15;
+}
+
+.fa-store{
+    padding-left: $pad15;
+    padding-right: $pad15;
+    color: $greyd;
+    font-size: $pad15;
+}
+
+.btnext {
+    font-size: $pad20;
+    font-weight: weight(bold);
+}
+
+.restdiv {
+    background-color: $light-grey;
+    padding-left: $pad15;
+    padding-right: $pad15;
+}
+
+.textname {
+    width: 80%;
+    padding-top: $pad15;
+    padding-bottom: $pad15;
+    padding-left: $pad15;
+}
+
+.textname1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.menu-name{
+    width: 85%;
+    padding-left: $pad10;
+    padding-top: $pad10;
+    padding-bottom: $pad10;
+}
+
+.menudiv {
+    display: flex;
+    flex-direction: row;
+    border-radius: $pad15 $pad15 $pad15 $pad15;
+    background-color: $white;
+    margin-top: $pad10;
+    margin-bottom: $pad10;
+    margin-left: $pad5;
+    margin-right: $pad5;
+    cursor: pointer;
+    transition: all 0.5s;
+    box-shadow: $shadowout;
+    -webkit-box-shadow:$shadowout;
+    box-shadow:$shadowout;
+    animation: fadeIn 5s;
+    -webkit-animation: fadeIn 5s ;
+    -moz-animation: fadeIn 5s ;
+    -o-animation: fadeIn 5s ;
+    -ms-animation: fadeIn 5s ;
+    @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+      
+      @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+      }
+    
+      .price{
+        padding-top: 25px;
+        padding-right: 26px;
+        padding-left: 150px;
+        animation: run1b 1s 1 ;
+        
+      }
+
+      .textbm {
+        font-weight: weight(bold);
+        width: 0%;
+        right: 0;
+        position: relative;
+        }
+          .btnhov {
+              height:100%;
+              position: absolute;
+              background-color: #96DED1;
+              width: 0px;
+              right: 0;
+              float: right;
+              border-radius: 0px 15px 15px 0px;
+              -webkit-animation: widthgrowb  1s  1 ;
+              animation: widthgrowb 1s 1 ;
+              .fa-check-circle{
+                animation: runb 1s 1 ;
+                color:white;
+                width:15px;
+                height:15px;
+                opacity: 0;
+                margin: 0;
+                position: absolute;
+                top: 40%;
+                left: 40%;
+                right: 0px;
+            }
+          }       
+}
+
+.fa-check-circle svg {
+    color:white;
+   }
+
+.menudiv:hover{
+
+    .price{
+        padding-top: 25px;
+        padding-right: 26px;
+        right:65px;
+        animation: run1 1s 1  forwards;
+      }
+    
+    .textbm {
+        
+        width:65px;
+    }
+   
+    .btnhov{
+        border-radius: 0px 15px 15px 0px;
+        -webkit-animation: widthgrow 1s ease 1 forwards;
+        animation: widthgrow 1s 1 ease forwards;
+        height:100%;
+        .fa-check-circle{
+            animation: run 1s 1 forwards;
+            opacity: 1; 
+            right: 15px;
+            opacity: 100;
+        }
+    }
+
+}
+
+@-webkit-keyframes widthgrow {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 65px;
+    }
+  }
+
+  @-webkit-keyframes widthgrowb {
+    0% {
+        width: 0px;
+      }
+      100% {
+        width: 65px;
+      }
+    }
+
+@keyframes widthgrow {
+
+    0% {
+        padding-bottom: 5px !important;
+        width: 0px;
+      }
+      100% {
+        padding-bottom: 5px !important;
+        width: 65px;
+      }
+}
+
+@keyframes widthgrowb {
+
+    0% {
+        width: 65px;
+      }
+      100% {
+        width: 0px;
+      }
+}
+
+@keyframes run {
+    0% {
+        opacity: 0;
+        transform: translate(0px);
+        transform: rotate(0deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-15px);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes runb {
+    0% {
+        opacity: 1;
+        transform: translate(-15px);
+        transform: rotate(360deg);
+    }
+    100% {
+        opacity: 0;
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes run1 {
+    0% {
+        transform: translate(65px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+@keyframes run1b {
+    0% {
+        transform: translate(-60px);
+    }
+    100% {
+        transform: translate(0px);
+    }
+}
+
+
+.entdiv {
+    padding-bottom: 10px;
+    padding-left: 15px;
+}
+
+.textu {
+    display: inline-block;
+    border-bottom: 3px solid #99E2D0;
+    width:40px;
+}
+
+.heart {
+    width: 20%;
+    font-size: $pad30;
+    padding-top: $pad15;
+    font-weight: weight(regular);
+}
+
+.hearts {
+    font-size: $pad20;
+}
+
+.cardtext {
+    color: black;
+    display: flex;
+    flex-direction: row;
+    background-color: $white;
+    border-radius: 0 0 $pad15 $pad15;
+    box-shadow: $shadowout;
+    -webkit-box-shadow:$shadowout;
+    box-shadow:$shadowout;
+    margin-bottom: $pad15;
+}
+
+
+.textb {
+    font-weight: weight(bold);
+}
+
+
+
+.maindiv {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left:15px;
+}
+
+.dessdiv {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-left:15px;
+}
+
+
+
+.suggdiv {
+    padding-bottom: $pad5;
+    text-align: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: #202020;
+    padding-left: $pad15;
+    color: $white;
+}
+
+.bckg{
+   background-color: $light-grey;
+}
+
+.logof {
+    text-align: center;
+    padding-top: $pad15;
+    padding-bottom: $pad15;
+    font-size: 40px;
+    font-family: 'Shrikhand', sans-serif;
+}
+
+.fa-utensils {
+    padding-right: 13px;
+}
+
+.fa-handshake {
+    padding-right: 7px;
+    padding-bottom: $pad5;
+}
+
+.partner {
+    text-align: center;
+    font-size: 30px;
+}
+
+.divl {
+    padding-bottom: $pad5;
+    text-align: center;
+    font-size: 30px;
+}
+
+.divc {
+    padding-bottom: $pad30;
+    text-align: center;
+    font-size: 30px;
+} 
+
+.textname1{
+    font-size:1em;
+    cursor:pointer;
+  }
+   
+
+
+  .heart > .far + .fas,
+.heart:hover > .far {
+  display: none;
+  background: linear-gradient(337deg, #f499fb 31%, #ec5cbd 88%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.heart:hover > .far + .fas {
+  display: inherit;
+}
+
+
+  
+.loader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+    width: 1440px;
+    z-index: 10;
+    margin-top: -15px;
+    background-color: #313131;
+    -webkit-animation-name: fade;
+    animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+  @-webkit-keyframes fade {
+    0% {
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+  }
+  @keyframes fade {
+    0% {
+      -webkit-transform: translateY(0%);
+      transform: translateY(0%);
+    }
+    100% {
+      -webkit-transform: translateY(100%);
+      transform: translateY(100%);
+    }
+  }
+  .primary-circle {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #9356dc;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+    -webkit-animation: rotate 1.5s infinite;
+    animation: rotate 1.5s infinite;
+  }
+  .secondary-circle {
+    -webkit-animation: rotate 1.5s infinite 0.1s;
+    animation: rotate 1.5s infinite 0.1s;
+    width: 120px;
+    height: 120px;
+    border: 4px solid #ff79da;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+    position: absolute;
+  }
+  .tertiary-circle {
+    -webkit-animation: rotate 1.5s infinite 0.2s;
+    animation: rotate 1.5s infinite 0.2s;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border: 4px solid #99e2d0;
+    border-top: 4px solid transparent;
+    border-radius: 50%;
+  }
+  @-webkit-keyframes rotate {
+    from {
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate {
+    from {
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
